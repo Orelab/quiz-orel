@@ -1,0 +1,37 @@
+
+
+#box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box>div {
+	min-width: 100px;
+	text-align: center;
+}
+
+#box>div:nth-child(2)
+{
+    flex: 1;
+    max-width: 600px;
+    text-align: left;
+}
+
+.question {
+	font-weight: bold;
+}
+
+.response {
+	font-weight: normal;
+}
+
+#save {
+	display: block;
+	margin: auto;
+}
+
+input {
+	margin: 0 20px;
+}
